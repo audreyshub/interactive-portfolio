@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     font-family: 'Fredoka One', cursive;
     display: block;
@@ -8,17 +12,39 @@
 input {
     padding: 0.5em;
     font-size: 1em;
-    color: grey;
 }
 
 .submit {
     padding: 0.5em 3em;
     background-color: #fee071;
     border: 1px solid #fee071;
-    color: grey;
+    /* color: grey; */
     margin-left: 0.3em;
 }
 
 .submit:hover {
     cursor: pointer;
+}
+
+.eyes {
+    display: inline-block;
+    padding: 1em;
+}
+
+.leftEye {
+    float: left;
+    padding-right: 0.5em;
+}
+
+.rightEye {
+    float: right;
+    padding-left: 0.5em;
+}
+
+.mouth {
+    padding: 0;
+}
+
+.mouth:h1 {
+    margin: 0;
 }
