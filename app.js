@@ -5,7 +5,7 @@ function submitBtnCLick() {
         const name = $('#name').val();
         console.log(name);
         $('.container').html(`
-            <h1>Hi ${name}! :)</h1>`);
+            <h1>Hello ${name} :)</h1>`);
     })
 };
 
